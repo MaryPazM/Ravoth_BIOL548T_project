@@ -1,4 +1,4 @@
-# Ravoth_BIOL548U_project
-## data &amp; scripts for BIOL548U project (LDP)
+# Ravoth_BIOL548T_project
+## data &amp; scripts for BIOL548T project (LDP)
 
 [under construction]
