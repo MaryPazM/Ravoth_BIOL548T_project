@@ -1,0 +1,14 @@
+Data_Field_EN_Champ de_la_donnée,Data_Field_FR_Champ de_la_donnée,Data_Value_Valeur_de_la_donnée,Value_Description_EN_Description_de_la_valeur,Value_Description_FR_Description_de_la_valeur
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,0,Calm,Calme
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,1,Light air,Très légère brise
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,2,Light breeze,Légère brise
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,3,Gentle breeze,Petite brise
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,4,Moderate breeze,Jolie brise
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,5,Fresh breeze,Bonne brise
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,6,Strong breeze,Vent frais
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,7,"High wind, Moderate gale, Near gale",Grand frais 
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,8,Fresh gale,Coup de vent
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,9,Strong gale,Fort coup de vent
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,10,Whole gale/Storm,Tempête
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,11,Violent storm,Violente tempête
+Beaufort Wind Class,Catégorie de vent selon l’échelle de Beaufort,12,Hurricane-force,Ouragan ou bombe météorologique au-dessus du 40e parallèle
