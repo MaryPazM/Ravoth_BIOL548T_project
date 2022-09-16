@@ -22,6 +22,7 @@ setwd("/Users/sarahravoth/Desktop/biol548T/Ravoth_BIOL548T_project/data") # make
 data.dest.file <- "/Users/sarahravoth/Desktop/biol548T/Ravoth_BIOL548T_project/data/BrucePNP_RedBackedSal_2018_abun.csv"
 metadata.dest.file <- "/Users/sarahravoth/Desktop/biol548T/Ravoth_BIOL548T_project/data/BrucePNP_RedBackedSal_2018_abun_metadata.csv"
 
+
 # download the files into the data folder
 download.file(url=data.url, destfile = data.dest.file) # download data
 download.file(url=metadata.url, destfile = metadata.dest.file) # download metadata
