@@ -1,10 +1,20 @@
 #### DATA DOWNLOAD
-#### DATE DOWNLOADED: 15 SEPTEMBER 2022
+#### DATE SCRIPT CREATED: 15 SEPTEMBER 2022
+#### DATE DATA DOWNLOADED: 15 SEPTEMBER 2022
 
 # data on redbacked salamanders in bruce peninsula national park was obtained from the government of canada
 
+
+######################### CALL GROUNDHOG PACKAGES ######################### 
+# not using any packages so commented out
+# groundhog.library(c(""), date = "2022-09-14")
+
+
+
+######################### DOWNLOAD DATA ######################### 
+# check we're working in correct directories 
 getwd() # check
-setwd("/Users/sarahravoth/Desktop/biol548T/Ravoth_BIOL548T_project/data")
+setwd("/Users/sarahravoth/Desktop/biol548T/Ravoth_BIOL548T_project/data") # reset 
 
 # set url to online data from gov't of canada
 data.url <- "https://124gc.sharepoint.com/:x:/s/external/_layouts/15/download.aspx/EWxtI26zo6RKpo466tLMhKIBcDPlXQAPFJhhmoKpKr6y1w"
