@@ -1,15 +1,31 @@
 ---
 title           : "Preregistration for BIOL548T project"
-shorttitle      : "Preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\ %B %Y')`"
+    
+geometry: margin=1in
+header-includes:
+    - \usepackage{fontspec}         # can only be used with xelatex output
+    - \setmainfont{Times New Roman} # can only be used with xelatex output
+    
+output:
+  pdf_document:
+    latex_engine: xelatex
+    
+## Specify your csl here. You can use local or remote 
+## sources of csl files but local is better.
+## below are two good sources of CSL files
+## https://github.com/citation-style-language/styles
+## https://www.zotero.org/styles
 
-author: 
-  - name        : Sarah Ravoth
-    affiliation : 1
+# csl: https://raw.githubusercontent.com/citation-style-language/styles/master/ecology-letters.csl
+csl: https://www.zotero.org/styles/ecology-letters
+# csl: "ecology-letters.csl"
 
-affiliation:
-  - id          : 1
-    institution : University of British Columbia
+# The .bib file allows you to add citations without Zotero and to share your
+# library with co-authors so that everyone has the same list of potential
+# references. Co-authors can just add new entries to the .bib file if they think
+# a citation is relevant
+bibliography: references.bib
 ---
 
 <!-- To keep pre-registrations to a reasonable length for readers, we recommend answers fit within a single page .pdf document, roughly 3200 characters. Read more about this here: https://aspredicted.org/messages/why_limits.php -->
@@ -24,7 +40,10 @@ Yes, we already collected the data.
 
 <!-- What's the main question being asked or hypothesis being tested in this study? -->
 
-How does abundance of Plethodon cinereus change between 2004 and 2019 in Bruce Peninsula National Park? Does this trend differ between the two colour morphs (redback and leadback)?
+This project aims to address two questions qualitatively:
+
+-   Does abundance of Plethodon cinereus change between 2004 and 2019 in Bruce Peninsula National Park?
+-   Do abundance trends differ between the two P. cinereus colour morphs (redback and leadback)?
 
 ## Dependent variable
 
@@ -78,9 +97,27 @@ Salamander abundance is the dependent variable. To collect this metric, the numb
 
 This pre-registration is for a class project.
 
+## Some random citations
+
+To force the document to knit with a references section
+
+@noël2007
+
+@wiggins2011
+
 # References
 
-## 
+```{=html}
+<!-- this littel code block is a comment that won't show up in the knitted 
+document. It is a good way to add hidden things and comments to your RMarkdown 
+document. For example... -->
+```
+```{=html}
+<!-- this little chunk of code (the ::: stuff below) forces the references to show up here. If you
+don't use this then they are put at the end of the document by default -->
+```
+::: {#refs}
+:::
 
 ```{=tex}
 \vspace{-2pc}
