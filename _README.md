@@ -4,3 +4,5 @@
 I will analyse abundance data of redback salamanders (Plethodon cinereus) collected from Bruce Peninsula National Park.
 
 Come back later for more details about the project! 
+
+The reviewer for this project is Mary Paz.
